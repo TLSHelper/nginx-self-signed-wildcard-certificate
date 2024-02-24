@@ -23,6 +23,10 @@ chmod +x nginx-self-signed-wildcard-certificate.sh
 
 1. Copy `fullchain.crt` and `server.key` to nginx SSL folder.
 2. Configure nginx or use the pre-configured [default](default) nginx configuration file.
+3. Start or restart nginx. On Debian/Ubuntu:
+```
+sudo systemctl restart nginx
+```
 
 [https://phoenixnap.com/kb/install-ssl-certificate-nginx](https://phoenixnap.com/kb/install-ssl-certificate-nginx)
 
